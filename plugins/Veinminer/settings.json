@@ -5,10 +5,10 @@
     "maxChain": 100,
     "needCorrectTool": true,
     "searchRadius": 1,
-    "permissionRestricted": false,
-    "mergeItemDrops": false,
+    "permissionRestricted": true,
+    "mergeItemDrops": true,
     "autoUpdate": false,
-    "decreaseDurability": true,
+    "decreaseDurability": false,
     "client": {
         "allow": true,
         "translucentBlockHighlight": true,
