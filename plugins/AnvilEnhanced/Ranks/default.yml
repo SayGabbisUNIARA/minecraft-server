@@ -1,0 +1,117 @@
+#########################################################
+#   _           _ _ ___      _                        _ #
+#  /_\  _ ___ _(_) | __|_ _ | |_  __ _ _ _  __ ___ __| |#
+# / _ \| ' \ V / | | _|| ' \| ' \/ _` | ' \/ _/ -_) _` |#
+#/_/ \_\_||_\_/|_|_|___|_||_|_||_\__,_|_||_\__\___\__,_|#
+#_                           ____ ____                  #
+#| |__ _  _   _ ____ _____ __|__  |__ /                 #
+#| '_ \ || | | '  \ V / -_)_ / / / |_ \                 #
+#|_.__/\_, | |_|_|_\_/\___/__|/_/ |___/                 #
+#      |__/                                             #
+#########################################################
+
+#########################################################
+#                    <rank>.yml                         #
+#########################################################
+
+enchantments:
+  bane_of_arthropods:
+    MAX_LEVEL: 5
+
+  blast_protection:
+    MAX_LEVEL: 4
+
+  breach:
+    MAX_LEVEL: 4
+
+  density:
+    MAX_LEVEL: 5
+
+  depth_strider:
+    MAX_LEVEL: 3
+
+  efficiency:
+    MAX_LEVEL: 5
+
+  feather_falling:
+    MAX_LEVEL: 4
+
+  fire_aspect:
+    MAX_LEVEL: 2
+
+  fire_protection:
+    MAX_LEVEL: 4
+
+  fortune:
+    MAX_LEVEL: 3
+
+  frost_walker:
+    MAX_LEVEL: 2
+
+  impaling:
+    MAX_LEVEL: 5
+
+  knockback:
+    MAX_LEVEL: 2
+
+  looting:
+    MAX_LEVEL: 3
+
+  loyalty:
+    MAX_LEVEL: 3
+
+  luck_of_the_sea:
+    MAX_LEVEL: 3
+
+  lure:
+    MAX_LEVEL: 3
+
+  piercing:
+    MAX_LEVEL: 4
+
+  power:
+    MAX_LEVEL: 5
+
+  projectile_protection:
+    MAX_LEVEL: 4
+
+  protection:
+    MAX_LEVEL: 4
+
+  punch:
+    MAX_LEVEL: 2
+
+  quick_charge:
+    MAX_LEVEL: 3
+
+  respiration:
+    MAX_LEVEL: 3
+
+  riptide:
+    MAX_LEVEL: 3
+
+  sharpness:
+    MAX_LEVEL: 5
+
+  smite:
+    MAX_LEVEL: 5
+
+  soul_speed:
+    MAX_LEVEL: 3
+
+  sweeping:
+    MAX_LEVEL: 3
+
+  swift_sneak:
+    MAX_LEVEL: 3
+
+  thorns:
+    MAX_LEVEL: 3
+
+  unbreaking:
+    MAX_LEVEL: 3
+
+  wind_burst:
+    MAX_LEVEL: 3
+
+too-expensive-limit: 40

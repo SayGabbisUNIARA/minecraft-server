@@ -1,0 +1,66 @@
+#########################################################
+#   _           _ _ ___      _                        _ #
+#  /_\  _ ___ _(_) | __|_ _ | |_  __ _ _ _  __ ___ __| |#
+# / _ \| ' \ V / | | _|| ' \| ' \/ _` | ' \/ _/ -_) _` |#
+#/_/ \_\_||_\_/|_|_|___|_||_|_||_\__,_|_||_\__\___\__,_|#
+#_                           ____ ____                  #
+#| |__ _  _   _ ____ _____ __|__  |__ /                 #
+#| '_ \ || | | '  \ V / -_)_ / / / |_ \                 #
+#|_.__/\_, | |_|_|_\_/\___/__|/_/ |___/                 #
+#      |__/                                             #
+#########################################################
+
+#########################################################
+# The limit for a repair/enchant/rename                 #
+# Over that limit you can't use the anvil               #
+# Note that you won't see the cost in red if you don't  #
+# have enough levels but still under the maximum-cost   #
+# limit. Over the maximum-cost limit you'll see the     #
+# "Too expensive" message in red.                       #
+# If the cost is over the custom limit, the player will #
+# see a message (configurable) in the chat window. You  #
+# can disable the message by setting "cost-text-enabled"#
+# to false (true by default). You can configure the     #
+# message and you can colorize the message like this:   #
+# "&5Enchant cost &r>>> ".                              #
+#########################################################
+too-expensive-enabled: true
+cost-text-enabled: true
+cost-text: "&6Enchant cost &r>>> &8"
+
+#########################################################
+# Add/remove rank to match your ranking system on your  #
+# server. Put the highest rank first and after the 2nd  #
+# and so on...                                          #
+# You also need to make a copy of default.yml for each  #
+# rank like owner.yml, vip.yml, etc.                    #
+#########################################################
+groups:
+# - owner # Highest rank
+# - admin # 2nd
+# - vip # 3rd
+  - default # Lowest rank
+
+#########################################################
+# If you enable this option, players will not be        #
+# invited to download the resource pack. The resource   #
+# pack does not contain any images and does not alter   #
+# the appearance of the game. It only adds Roman        #
+# numerals beyond 10.                                   #
+#########################################################
+resource-pack-enabled: false
+
+#########################################################
+# If you use another plugin for renaming in color with  #
+# the anvil, you can disable this option to completely  #
+# disable it in AnvilEnhanced to avoid conflict with    #
+# other plugins.                                        #
+#########################################################
+anvil-color-enabled: true
+
+#########################################################
+# Enable or disable the update checker. If disabled,    #
+# you'll not see if there's a new version available     #
+#########################################################
+update-checker-enabled: true
+update-checker-checkeveryxhours: 12
